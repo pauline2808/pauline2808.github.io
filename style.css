@@ -1,0 +1,251 @@
+
+body{
+  background-color: white;
+  color:black;
+}
+
+@media all and (max-width: 1024px)
+{
+    {
+        width: auto;
+    }
+}
+
+.card{
+  
+  height: auto;
+  width: auto;
+  background-size: cover;
+  display: inline-flex;
+  padding: 20px;
+  opacity: 0.7;
+  margin: 10px;
+}
+
+.voyage{
+  padding: 10px;
+  margin: 10px;
+}
+
+.card-description{
+  size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.colonne{
+  justify-content: space-around;
+  display :flex;
+  padding: 20px;
+ }
+
+.experience{
+  display: inline;
+}
+.coordonnee{
+	margin-right: auto;
+	width: 70vh;
+	border: #C1BDB3;
+	padding: 20px;
+	text-align: center;
+	height: 130vh;
+	position: sticky !important;
+	top:0;
+	background-color: #C1BDB3;
+  background-position: center;
+  margin-left:auto;
+  color: black;
+  
+}
+
+.banner{
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  opacity: 0.6;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: black;
+  opacity: 0.6;
+  margin-bottom: 20px;
+}
+
+.hobbies{
+  display: table-footer-group;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: absolute;
+  background-position: center;
+  margin: 20px;
+  padding: 10px;
+  
+}
+
+.formation{
+  padding: 20px;
+  border-color: black;
+  background-position: center;
+  border-width:8px;
+  border-style:dotted;
+  border-color:#BD4F6C;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.parcours{
+  background-position: center;
+  border-radius: 20px;
+  border-width:8px;
+  border-style:dotted;
+  border-color:#BD4F6C;
+  padding: 20px;
+  margin-left: 20px;
+
+}
+
+
+.footer-links{
+  margin: 50px;
+  font-size: 20px;
+}
+
+.btn{
+  background-color: black;
+  margin:20px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    background-color: #C1BDB3;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 21px;
+    margin-right: 15px;
+    font-family: 'Lobster Two', cursive;
+
+}
+
+nav li
+{
+    margin-right: 15px;
+    
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+    
+}
+
+nav a:hover
+{
+    color: #BD4F6C;
+    border-bottom: 3px solid #F4C3C2;
+}
+
+h1{
+font-family: serif;
+font-weight: bold;
+font-size: 100px;
+text-shadow: 2px 2px 4px black inset;
+}
+
+h2{
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h3{
+  text-decoration: underline;
+  color: #BD4F6C;
+  margin: 20px;
+}
+
+h4{
+  font-style: italic;
+  color: #F4C3C2;
+}
+
+h6{
+  font-family: 'Lobster Two', cursive;
+  font-size: 15px;
+}
+.message {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgba(220,224,244,0.4);
+  background-color: #C1BDB3;
+  padding: 20px;
+  border-spacing: 10px;
+  margin: 10px;
+
+}
+.message:last-child {
+  border-bottom: none;
+}
+.message-body {
+  flex-grow: 1;
+}
+.message-name {
+  padding-left: 10px;
+  min-width: 100px;
+}
+.message-name h3 {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+.message-name p {
+  font-size: 13px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.message-body {
+  padding-left: 10px;
+  font-size: 13px;
+  color: rgba(0,0,0,0.7);
+}
+
+.message-status {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: black;
+}
+
+.price{
+  color:black;
+}
+
+.avatar-large{
+  border-radius: 10Px;
+  width: : 30px;
+  height: 30px;
+}
+
+.equitation{
+  align-items: center;
+}
